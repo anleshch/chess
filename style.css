@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.board {
+    background-image: url(img/board.jpg);
+    background-size: contain;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    margin: auto;
+}
+.figure > img{
+    width: 60px;
+    height: auto;
+}
+/*BLACK*/
+.rook_black {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+.knight__black {
+    position: absolute;
+    top: 45px;
+    left: 120px;
+}
+.bishop__black {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+}
+.queen__black {
+    position: absolute;
+    top: 45px;
+    left: 280px;
+}
+.king__black {
+    position: absolute;
+    top: 45px;
+    left: 360px;
+}
+.bishop__black2 {
+    position: absolute;
+    top: 45px;
+    left: 440px;
+}
+.knight__black2 {
+    position: absolute;
+    top: 45px;
+    left: 520px;
+}
+.rook_black2 {
+    position: absolute;
+    top: 45px;
+    left: 595px;
+}
+.pawn__black1{
+    position: absolute;
+    top: 125px;
+    left: 45px;
+}
+.pawn__black2{
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+.pawn__black3{
+    position: absolute;
+    top: 125px;
+    left: 200px;
+}
+.pawn__black4{
+    position: absolute;
+    top: 125px;
+    left: 280px;
+}
+.pawn__black5{
+    position: absolute;
+    top: 125px;
+    left: 360px;
+}
+.pawn__black6{
+    position: absolute;
+    top: 125px;
+    left: 440px;
+}
+.pawn__black7{
+    position: absolute;
+    top: 125px;
+    left: 520px;
+}
+.pawn__black8{
+    position: absolute;
+    top: 125px;
+    left: 595px;
+}
+/*RED*/
+.pawn__red1{
+    position: absolute;
+    bottom: 115px;
+    left: 45px;
+}
+.pawn__red2{
+    position: absolute;
+    bottom: 115px;
+    left: 125px;
+}
+.pawn__red3{
+    position: absolute;
+    bottom: 115px;
+    left: 200px;
+}
+.pawn__red4{
+    position: absolute;
+    bottom: 115px;
+    left: 280px;
+}
+.pawn__red5{
+    position: absolute;
+    bottom: 115px;
+    left: 360px;
+}
+.pawn__red6{
+    position: absolute;
+    bottom: 115px;
+    left: 440px;
+}
+.pawn__red7{
+    position: absolute;
+    bottom: 115px;
+    left: 520px;
+}
+.pawn__red8{
+    position: absolute;
+    bottom: 115px;
+    left: 595px;
+}
+
+.rook__red {
+    position: absolute;
+    bottom: 45px;
+    left: 45px;
+}
+.knight__red {
+    position: absolute;
+    bottom: 45px;
+    left: 120px;
+}
+.bishop__red {
+    position: absolute;
+    bottom: 45px;
+    left: 200px;
+}
+.queen__red {
+    position: absolute;
+    bottom: 45px;
+    left: 280px;
+}
+.kind__red {
+    position: absolute;
+    bottom: 45px;
+    left: 360px;
+}
+.bishop__red2 {
+    position: absolute;
+    bottom: 45px;
+    left: 440px;
+}
+.knight__red2 {
+    position: absolute;
+    bottom: 45px;
+    left: 520px;
+}
+.rook__red2 {
+    position: absolute;
+    bottom: 45px;
+    left: 595px;
+}
+
